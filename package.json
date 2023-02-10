@@ -6,6 +6,7 @@
   "main": "wiki.js",
   "dev": true,
   "scripts": {
+    "service":"node windows.js",
     "start": "node server",
     "dev": "node dev",
     "build": "webpack --profile --config dev/webpack/webpack.prod.js",
@@ -131,6 +132,7 @@
     "nanoid": "3.2.0",
     "node-2fa": "1.1.2",
     "node-cache": "5.1.2",
+    "node-windows": "^1.0.0-beta.8",
     "nodemailer": "6.9.1",
     "objection": "2.2.18",
     "passport": "0.4.1",
@@ -331,7 +333,6 @@
     "zxcvbn": "4.4.2"
   },
   "resolutions": {
-    "apollo-server-express/**/graphql-tools": "4.0.8",
     "graphql": "15.3.0"
   },
   "browserslist": [

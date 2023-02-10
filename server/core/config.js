@@ -74,7 +74,9 @@ module.exports = {
     WIKI.data = appdata
     WIKI.version = packageInfo.version
     WIKI.releaseDate = packageInfo.releaseDate
-    WIKI.devMode = (packageInfo.dev === true)
+    // WIKI.devMode = (packageInfo.dev === true)
+
+    WIKI.devMode = false
   },
 
   /**
