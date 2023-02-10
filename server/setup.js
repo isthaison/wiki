@@ -17,7 +17,7 @@ const semver = require('semver')
 module.exports = () => {
   WIKI.config.site = {
     path: '',
-    title: 'Wiki.js'
+    title: `Smart team 's Wiki`
   }
 
   WIKI.system = require('./core/system')

@@ -161,8 +161,8 @@ exports.up = knex => {
           table.specificType('render', 'LONGTEXT')
           break
         case 'mssql':
-          table.specificType('content', 'VARCHAR(max)')
-          table.specificType('render', 'VARCHAR(max)')
+          table.specificType('content', 'NVARCHAR(max)')
+          table.specificType('render', 'NVARCHAR(max)')
           break
       }
       table.json('toc')

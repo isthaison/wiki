@@ -10,8 +10,8 @@ exports.up = knex => {
           table.specificType('render', 'LONGTEXT').alter()
           break
         case 'mssql':
-          table.specificType('content', 'VARCHAR(max)').alter()
-          table.specificType('render', 'VARCHAR(max)').alter()
+          table.specificType('content', 'NVARCHAR(max)').alter()
+          table.specificType('render', 'NVARCHAR(max)').alter()
           break
       }
     })
